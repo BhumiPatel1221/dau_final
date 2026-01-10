@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+.venv/
+
+# Build outputs
+dist/
+out/
+build/
+*.egg-info/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+Projects.code-workspace
+
+# Logs
+*.log
+npm-debug.log*
+
+# System
+.DS_Store
+Thumbs.db
+
+# Project specific
+backend/models/*.pth
+!backend/models/.keep
+backend/images/
+backend/uploads/
